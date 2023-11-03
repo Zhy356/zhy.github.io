@@ -2,3 +2,8 @@
     border: 5px solid #3157d3; /* You can adjust the border width and color to your preference */
     border-radius: 20px; 
    }   /* Optional: Add rounded corners to the border 
+  
+   /* Common styles for all screen sizes */
+   html {
+    min-width: 940px;
+ }
