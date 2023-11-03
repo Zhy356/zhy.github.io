@@ -1,28 +1,27 @@
 <!DOCTYPE html>
-<html> 
+<html>
 <head>
-
-
     <link rel="stylesheet" href="styles.css">
-
     <title>Team Page</title>
-   <style>
-      body {
-            background-color: #2686bea4; 
-            font-family: poppins, Arial, Helvetica, sans-serif;
+    <style>
+        body {
+            background-color: #2686bea4;
+            font-family: 'Poppins', Arial, Helvetica, sans-serif;
             padding: 20px;
             text-align: center;
         }
-  
+
         h1 {
             margin: 0;
         }
+
         .team-container {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
             padding: 20px;
         }
+
         .team {
             text-align: center;
             width: 45%;
@@ -31,15 +30,17 @@
             padding: 20px;
             margin: 10px;
         }
+
         .team h2 {
-        font-style: italic;
-        font-size: 50px; /* Change this font size to your preferred size */
-        margin: 0;
+            font-style: italic;
+            font-size: 24px; /* Change this font size to your preferred size */
+            margin: 0;
         }
+
         .member {
             margin: 10px 0;
         }
-    
+
         header {
             display: flex;
             justify-content: space-between;
@@ -71,24 +72,25 @@
             margin-left: 50px; /* Adjust the margin as needed */
         }
 
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 5px;
-            text-align:center; 
+        .bordered-image {
+            border: 1px solid #000;
+            border-radius: 50%;
+            max-width: 100px;
         }
 
-        footer .footer-content {
-            margin: 0;
+        footer {
+            background-color: #2b67c2;
+            color: #fff;
+            padding: 10px;
         }
-    </style>
-</head>
-<body>
+
+        .footer-content {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <header>
-
         <div class="logo">
             <img src="scrlogo.png" alt="Your Logo">
         </div>
@@ -97,95 +99,49 @@
             <ul>
                 <li><a href="#"></a></li>
                 <li><a href="#"></a></li>
-                <li><a href="#" ></a></li>
+                <li><a href="#"></a></li>
                 <!-- Add more navigation links as needed -->
             </ul>
         </nav>
     </header>
 
     <div class="team-container">
-        <!-- Your team information goes here -->
-    </div>
-    
-    </style>
-</head>
-<body>
-   
-
-    <div class="team-container">
         <div class="team">
             <h2>ICT Club Officers</h2>
-          
             <div class="member">
                 <img src="team_member1.jpg" alt="Team Member 1" class="bordered-image">
                 <p>Name: Team Member 1</p>
                 <p>Role: Role 1</p>
             </div>
             <div class="member">
-                <img src="team_member2.jpg" alt="Team Member 2">
+                <img src="team_member2.jpg" alt="Team Member 2" class="bordered-image">
                 <p>Name: Team Member 2</p>
                 <p>Role: Role 2</p>
             </div>
-            <!-- Repeat this structure for all 6 members of Team A -->
+            <!-- Repeat this structure for all members of Team A -->
         </div>
 
         <div class="team">
             <h2>TLE Club Officers</h2>
             <div class="member">
                 <img src="cat.jpg" alt="Team Member 1" class="bordered-image">
-                <p>Testname</p>
-                <p>President</p>
+                <p>Name: Testname</p>
+                <p>Role: President</p>
             </div>
             <div class="member">
                 <img src="dog.jpg" alt="Team Member 2" class="bordered-image">
                 <p>Name: Testname</p>
                 <p>Role: Vice President</p>
             </div>
-         
-            <div class="member">
-                <img src="team_member8.jpg" alt="Team Member 3">
-                <p>Name: Team Member 8</p>
-                <p>Role: Role 8</p>
-            </div>
-            <div class="member">
-                <img src="team_member8.jpg" alt="Team Member 4">
-                <p>Name: Team Member 8</p>
-                <p>Role: Role 8</p>
-            </div>
-            <div class="member">
-                <img src="team_member8.jpg" alt="Team Member 5">
-                <p>Name: Team Member 8</p>
-                <p>Role: Role 8</p>
-            </div>
-            <div class="member">
-                <img src="team_member8.jpg" alt="Team Member 6">
-                <p>Name: Team Member 8</p>
-                <p>Role: Role 8</p>
-            </div>
-        </div>
-        
-    
-    </style>
-</head>
-<body>
-    
-</style>
-</head>
-<body> 
-        <footer>
-            
-        </style>
-    </head>
-    <body>
-            <div class="footer-content">
-                <p>&copy; 2023 SRC Club Officers</p>
-                <p></p>
-            </div>
-        </footer>
-
-    
-            <!-- Repeat this structure for all 6 members of Team B -->
+            <!-- Repeat this structure for all members of Team B -->
         </div>
     </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 SRC Club Officers</p>
+            <!-- Add any additional footer content here -->
+        </div>
+    </footer>
 </body>
 </html>
