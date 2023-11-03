@@ -9,7 +9,8 @@
 
 
    <style>
-      .p1 {
+    
+    .p1 {
   font-family: "Times New Roman", Times, serif;
 }
 .p2 {
@@ -108,6 +109,48 @@
             text-align: center;
         }
     </style>
+
+<style>
+    .dog-container {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        background-color: #BAA0CD;
+        overflow: hidden;
+    }
+
+    .dog {
+        position: absolute;
+        width: 150px;
+        height: 100px;
+        background-image: url('KidsRun.jpg'); /* Replace 'dog.png' with your dog image */
+        background-size: cover;
+        animation: run 20s infinite linear;
+    }
+
+    @keyframes run {
+        0% {
+            left: -100px;
+        }
+        100% {
+            left: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+<div class="dog-container">
+    <div class="dog"></div>
+</div>
+
+
+
+
+
+
+
+
+
 </head>
 <body>
     <header>
