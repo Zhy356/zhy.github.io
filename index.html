@@ -1,119 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Club Officers</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-    <!-- Style sheet -->
-    <link rel="stylesheet" href="css/style.css">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700;1,900&display=swap" rel="stylesheet">
 
-    <!-- FOnt Awesome -->
-    <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
 
-    <title>Our Team page</title>
+   <style>
+      .p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.p2 {
+  font-family: monospace, lucida, sans-serif;
+   font-size: x-large;
+}
 
+.p3 {
+  font-family: Verdana, Tahoma, sans-serif, lucida, sans-serif;
+   font-size: medium;
+}
+      
+      body {
+            background-color: #2686bea4;
+            font-family: 'Poppins', Arial, Helvetica, sans-serif;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .team-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .team {
+            text-align: center;
+            width: 45%;
+            border: 5px solid #071827;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .team h2 {
+    
+            font-style: italic;
+            font-size: 24px; /* Change this font size to your preferred size */
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 10;
+        }
+
+        .member {
+            margin: 10px 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #2b67c2;
+            color: #fff;
+            padding: 5px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        header nav li {
+            margin-right: 20px;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #9c2525;
+        }
+
+        .logo {
+            margin-left: 35px; /* Adjust the margin as needed */
+        }
+
+        .bordered-image {
+            border: 5px solid #9b5252;
+            border-radius: 50px;
+            max-width: 100px;
+        }
+
+        footer {
+            background-color: #245caf;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .footer-content {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="section-title">
-            <h1>Our Team Page</h1>
+    <header>
+        <div class="logo">
+            <img src="scrlogo.png" alt="Your Logo">
+        </div>
+        <h1>Club Officers</h1>
+        <nav>
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <div class="team-container">
+        <div class="team">
+            <h2>ICT Club Officers</h2>
+            <div class="member">
+                <img src="team_member1.jpg" alt="Team Member 1" class="bordered-image">
+            
+               <i> <b> <p class="p2">President</p></b> </i>
+               <b> <p class="p3"> Jan Dazzel B. Roque</p></b>
+            </div>
+            
+            <div class="member">
+                <img src="team_member2.jpg" alt="Team Member 2" class="bordered-image">
+                <i> <b> <p class="p2">President</p></b> </i>
+                <b> <p class="p3"> Jan Dazzel B. Roque</p></b>
+            </div>
+            <div class="member">
+                <img src="team_member2.jpg" alt="Team Member 2" class="bordered-image">
+                <i> <b> <p class="p2">President</p></b> </i>
+                <b> <p class="p3"> Jan Dazzel B. Roque</p></b>
+            </div>
+            <div class="member">
+                <img src="team_member2.jpg" alt="Team Member 2" class="bordered-image">
+                <i> <b> <p class="p2">President</p></b> </i>
+                <b> <p class="p3"> Jan Dazzel B. Roque</p></b>
+            </div>
+            <div class="member">
+                <img src="team_member2.jpg" alt="Team Member 2" class="bordered-image">
+                <i> <b> <p class="p2">President</p></b> </i>
+                <b> <p class="p3"> Jan Dazzel B. Roque</p></b>
+            </div>
+            <div class="member">
+                <img src="team_member2.jpg" alt="Team Member 2" class="bordered-image">
+                <i> <b> <p class="p2">President</p></b> </i>
+                <b> <p class="p3"> Jan Dazzel B. Roque</p></b>
+            </div>
+            <!-- Repeat this structure for all members of Team A -->
         </div>
 
-        <div class="row">
-
-
-            <div class="column">
-                <div class="team">
-                    <div class="team-img">
-                        <img src="img/team-1.jpg" alt="Team Image">
-                    </div>
-                    <div class="team-content">
-                        <h2>Steven</h2>
-                        <h3>CEO & Founder</h3>
-                        <p>Some text goes here that describes about team members</p>
-                        <h4>abc@gmail.com</h4>
-                    </div>
-                    <div class="team-social">
-                        <a href="#" class="social-tw"> <i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="social-in"> <i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-yt"> <i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
+        <div class="team">
+            <h2>TLE Club Officers</h2>
+            <div class="member">
+                <img src="cat.jpg" alt="Team Member 1" class="bordered-image">
+                <i> <b> <p class="p2">President</p></b> </i>
+                <b> <p class="p3"> Jan Dazzel B. Roque</p></b>
             </div>
-
-            <div class="column">
-                <div class="team">
-                    <div class="team-img">
-                        <img src="img/team-2.jpg" alt="Team Image">
-                    </div>
-                    <div class="team-content">
-                        <h2>Mayra</h2>
-                        <h3>Art Director</h3>
-                        <p>Some text goes here that describes about team members</p>
-                        <h4>abc@gmail.com</h4>
-                    </div>
-                    <div class="team-social">
-                        <a href="#" class="social-tw"> <i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="social-in"> <i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-yt"> <i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
+            <div class="member">
+                <img src="dog.jpg" alt="Team Member 2" class="bordered-image">
+                <i> <b> <p class="p2">Vice President</p></b> </i>
+                <b> <p class="p3"> Jan Dazzel B. Roque</p></b>
             </div>
-
-            <div class="column">
-                <div class="team">
-                    <div class="team-img">
-                        <img src="img/team-3.jpg" alt="Team Image">
-                    </div>
-                    <div class="team-content">
-                        <h2>John</h2>
-                        <h3>Developer</h3>
-                        <p>Some text goes here that describes about team members</p>
-                        <h4>abc@gmail.com</h4>
-                    </div>
-                    <div class="team-social">
-                        <a href="#" class="social-tw"> <i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="social-in"> <i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-yt"> <i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
+            <div class="member">
+                <img src="team_member2.jpg" alt="Team Member 2" class="bordered-image">
+                <i> <b> <p class="p2">President</p></b> </i>
+                <b> <p class="p3"> Jan Dazzel B. Roque</p></b>
             </div>
-
-            <div class="column">
-                <div class="team">
-                    <div class="team-img">
-                        <img src="img/team-4.jpg" alt="Team Image">
-                    </div>
-                    <div class="team-content">
-                        <h2>Jennifer</h2>
-                        <h3>Designer</h3>
-                        <p>Some text goes here that describes about team members</p>
-                        <h4>abc@gmail.com</h4>
-                    </div>
-                    <div class="team-social">
-                        <a href="#" class="social-tw"> <i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="social-in"> <i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-yt"> <i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
+            <div class="member">
+                <img src="team_member2.jpg" alt="Team Member 2" class="bordered-image">
+                <i> <b> <p class="p2">President</p></b> </i>
+                <b> <p class="p3"> Jan Dazzel B. Roque</p></b>
             </div>
-
+            <div class="member">
+                <img src="team_member2.jpg" alt="Team Member 2" class="bordered-image">
+                <i> <b> <p class="p2">President</p></b> </i>
+                <b> <p class="p3"> Jan Dazzel B. Roque</p></b>
+            </div>
+            <div class="member">
+                <img src="team_member2.jpg" alt="Team Member 2" class="bordered-image">
+                <i> <b> <p class="p2">President</p></b> </i>
+                <b> <p class="p3"> Jan Dazzel B. Roque</p></b>
+            </div>
+            <!-- Repeat this structure for all members of Team B -->
         </div>
-
     </div>
 
-    
+    <footer>
+        <div class="footer-content">
+        <p class="p1">&copy; 2023 SRC Club Officers</p>
+            <!-- Add any additional footer content here -->
+        </div>
+    </footer>
 </body>
 </html>
