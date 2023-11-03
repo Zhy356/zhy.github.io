@@ -10,24 +10,3 @@
 
 
  
-/* Mobile-specific styles (up to 768px) */
-@media (max-width: 768px) {
-    /* Adjust layout for phones */
-    /* For example, you can make a two-column layout into a single column */
-
-    /* Remove floats and set width to 100% for both columns */
-    .column {
-        float: none;
-        width: 100%;
-    }
-}
-
-/* Tablet-specific styles (769px to 1023px) - Optional */
-@media (min-width: 769px) and (max-width: 1023px) {
-    /* Add specific styles for tablet-sized screens */
-}
-
-/* Desktop-specific styles (1024px and above) - Optional */
-@media (min-width: 1024px) {
-    /* Add specific styles for larger screens */
-}
